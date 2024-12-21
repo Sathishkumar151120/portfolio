@@ -530,10 +530,13 @@ section {
     color: var(--text-color);
 }
 @media (max-width: 1285px) {
-    #menu-icon {
-        display: block;
+       #menu-icon {
+        display:block;
         cursor: pointer;
-        width: 50px; 
+        width: 70px; 
+        height: 70px; 
+        font-size: 40px;
+        color: #fff;
     }
     .navbar {
         position: absolute;
