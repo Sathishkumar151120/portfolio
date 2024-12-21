@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-     
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +17,10 @@
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
-        <button class="gradient-btn"> <a href="#contact">Contact Me</a></button>
+       <!-- <button class="gradient-btn"> <a href="#contact">Contact Me</a></button>-->
     </header>
 
     <section class="home" id="home">
@@ -37,8 +37,8 @@
             <div class="social-icons">
                 <a href="https://github.com/Sathishkumar151120/portfolio"><i class="bx bxl-github"></i></a>
                 <a href="https://www.linkedin.com/in/sathishkumarv1511"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://instagram.com/_gone_maad_"><i class="bx bxl-instagram"></i></a>
-               <!-- <a href="#"><i class="bx bxl-twitter"></i></a> -->
+                <!--<a href="https://instagram.com/_gone_maad_"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a> -->
             </div>
             <div class="btn-group">
                 <a href="#" class="btn">Hire</a>
@@ -52,7 +52,7 @@
     </section>
     <section class="about" id="about">
         <div class="about-img">
-           <img src="image.jpg" alt="Sathish Kumar">
+            <img src="image.jpg" alt="Sathishkumar">
         </div>
         <div class="about-content">
             <h2>About<span> Me</span></h2>
@@ -65,70 +65,61 @@
         </div>
 
     </section>
-    <section class="projects" id="projects">
     
-        <div class="projects-box">
-            <div class="project-card">
-                <img src="portfolio.jpg" alt="">
-                <h3>
-                    Project 1
-                </h3>
-                <p>This portfolio is a project I built using HTML, CSS, and JavaScript. It showcases my skills in
-                    creating visually appealing, responsive, and interactive web pages. Through this project, I honed my
-                    front-end development abilities and demonstrated my commitment to clean design and functionality.
-                    This portfolio is a reflection of my passion for web development and serves as a platform to
-                    highlight my work and achievements.
-
-
-
-
-
-
-                </p>
+    <section class="skills" id="skills">
+        <div class="full-skills">
+            <div class="skill-title">SKILLS</div>
+            <div class="skills-slider">
+                <div class="skills-wrapper">
+                    <div class="skill-item">
+                        <img src="html.png" alt="HTML 5">
+                        <div class="name"><h1>HTML 5</h1></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="css.png" alt="CSS">
+                        <div class="name"><h1>CSS</h1></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="js.png" alt="CSS">
+                        <div class="name"><h1>Javascript</h1></div>
+                    </div>
+                </div>
             </div>
-        </div>
-
         </div>
     </section>
     <section class="contact" id="contact">
-        <h2 class="heading">Contact<span>Me</span>
-        </h2>
-        <form action="#">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xvggpall" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                <input type="text"
-                placeholder="Full Name"
-                <input type="email"
-                placeholder="Email">
-            </div>
-
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
                 <div class="input-box">
-                    <input type="number"
-                    placeholder="Phone Number">
-                    <input type="text"
-                    placeholder="Subject">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id=""
-                placeholder="Your Message" cols="30" rows="10"> </textarea>
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
+    
     <footer class="footer">
         <div class="social-icons">
-                <a href="https://github.com/Sathishkumar151120/portfolio"><i class="bx bxl-github"></i></a>
-                <a href="https://www.linkedin.com/in/sathishkumarv1511"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://instagram.com/_gone_maad_"><i class="bx bxl-instagram"></i></a>
-               <!-- <a href="#"><i class="bx bxl-twitter"></i></a> -->
-            </div>
+            <a href="https://github.com/Sathishkumar151120/portfolio"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/sathishkumarv1511"><i class="bx bxl-linkedin"></i></a>
+            <!-- <a href="https://instagram.com/_gone_maad_"><i class="bx bxl-instagram"></i></a>
+           a cou<a href="#"><i class="bx bxl-twitter"></i></a> -->
+        </div>
         <ul class="list">
             <li>
                 <a href="#">FAQ</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#skills">skills</a>
             </li>
             <li>
                 <a href="#about">About</a>
@@ -139,7 +130,7 @@
 
         </ul>
         <p class="copyright">
-           Sathish kumar | All Rights Reserved
+            Sathish kumar | All Rights Reserved
         </p>
     </footer>
 
@@ -147,3 +138,10 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
